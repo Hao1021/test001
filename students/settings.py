@@ -140,3 +140,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [  #加入 static 路徑
 	os.path.join(BASE_DIR, 'static'),
 ]
+
+ALLOWED_HOSTS = ["localhost", "192.168.0.121", "127.0.0.1"] 
